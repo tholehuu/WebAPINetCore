@@ -1,0 +1,14 @@
+D:\AngularTest\WebApiNetCore\bin\Debug\netcoreapp2.1\WebApiNetCore.deps.json
+D:\AngularTest\WebApiNetCore\bin\Debug\netcoreapp2.1\WebApiNetCore.runtimeconfig.json
+D:\AngularTest\WebApiNetCore\bin\Debug\netcoreapp2.1\WebApiNetCore.runtimeconfig.dev.json
+D:\AngularTest\WebApiNetCore\bin\Debug\netcoreapp2.1\WebApiNetCore.dll
+D:\AngularTest\WebApiNetCore\bin\Debug\netcoreapp2.1\WebApiNetCore.pdb
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.csprojAssemblyReference.cache
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.csproj.CoreCompileInputs.cache
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.RazorAssemblyInfo.cache
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.RazorAssemblyInfo.cs
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.AssemblyInfoInputs.cache
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.AssemblyInfo.cs
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.RazorTargetAssemblyInfo.cache
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.dll
+D:\AngularTest\WebApiNetCore\obj\Debug\netcoreapp2.1\WebApiNetCore.pdb
