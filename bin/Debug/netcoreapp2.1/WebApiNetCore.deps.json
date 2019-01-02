@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "WebApiNetCore/1.0.0-1.2.0.0": {
+      "WebApiNetCore/1.0.0": {
         "dependencies": {
           "Dapper": "1.50.5",
           "Microsoft.AspNetCore.All": "2.1.0",
@@ -4036,7 +4036,7 @@
     }
   },
   "libraries": {
-    "WebApiNetCore/1.0.0-1.2.0.0": {
+    "WebApiNetCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

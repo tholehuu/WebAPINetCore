@@ -11,7 +11,7 @@ namespace WebApiNetCore.DataContext
         {
         }
 
-        public DbSet<WebApiNetCore.Models.MAINTE.CATEGORY> CATEGORY { get; set; }
+        public DbSet<CATEGORY> CATEGORY { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
