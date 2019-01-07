@@ -110,16 +110,32 @@ namespace WebApiNetCore.Controllers
                 return BadRequest(ModelState);
             }
 
-            var cate= await _context.User.SingleOrDefaultAsync(m => m.Id ==id);
-            if(cate==null)
+            USER USER= await _context.User.SingleOrDefaultAsync(m => m.Id ==id);
+            if(USER==null)
             {
                 return NotFound();
             }
+            USER.IsActive=0;
+            _context.Entry(USER).State=EntityState.Modified;
+            //_context.User.Remove(cate);
+            //await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if(!USERExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
 
-            _context.User.Remove(cate);
-            await _context.SaveChangesAsync();
-
-            return Ok(cate);
+            return Ok(USER);
         }
 
         private bool USERExists(int id)

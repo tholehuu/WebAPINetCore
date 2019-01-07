@@ -18,6 +18,7 @@ namespace WebApiNetCore.Models.User
         public string LastName { get; set; }
 
         public string Token { get; set; }
-       
+
+        public  int IsActive { get;set; }
     }
 }
