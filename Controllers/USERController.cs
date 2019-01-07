@@ -26,11 +26,7 @@ namespace WebApiNetCore.Controllers
         [HttpGet]
         public IEnumerable<USER> GetUSERS()
         {
-            List<USER> lsUser=  _context.User.ToList();
-            lsUser = (from user in lsUser
-                        where user.IsActive.Equals(1)
-                     select user).ToList();
-            return lsUser;
+            return _context.User.Where(u => u.IsActive==1);
         }
 
         // GET api/values/5
